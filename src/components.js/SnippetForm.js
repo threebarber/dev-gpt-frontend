@@ -30,7 +30,7 @@ const SnippetForm = () => {
     event.preventDefault();
     console.log(`Submitting prompt: ${prompt}`);
     console.log(prompt.length);
-    if (prompt.length <= 150) {
+    if (prompt.length <= 150 && prompt.length > 2) {
       try {
         setLoading(true);
         setInfo('');
@@ -45,8 +45,8 @@ const SnippetForm = () => {
         setLoading(false);
       }
     } else {
-      console.log('Snippet too long');
-      setInfo('Please try a shorter code snippet...');
+      console.log('Snippet too long/short');
+      setInfo('Code snippet too long/short');
       return;
     }
   };
