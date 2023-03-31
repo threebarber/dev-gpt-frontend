@@ -42,7 +42,7 @@ const RecentSnippets = () => {
         <Box>
           <Heading size="md">Recent Snippets 👀</Heading>
         </Box>
-        <Box border="2px" w="100%">
+        <Box w="100%">
           <TableContainer>
             <Table variant="simple">
               <Thead>
