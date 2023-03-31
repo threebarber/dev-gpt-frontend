@@ -40,3 +40,5 @@ Simple Clean ChakraUI/React frontend
 Analyze Code Snippets up to 150 characters (or 300 tokens)
 
 Answers in seconds
+
+View recent code snippets and answers submitted by other users 
