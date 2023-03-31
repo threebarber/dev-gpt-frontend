@@ -61,13 +61,13 @@ const SnippetForm = () => {
     <Center>
       <Box align="center" width="40%" p="20px">
         <SimpleGrid p="20px" minChildWidth="120px" spacing="40px">
-          <Box borderRadius="lg" borderWidth="2px">
+          <Box borderRadius="lg" borderWidth="2px" p="20px">
             <VStack>
               <Textarea
                 maxLength="150"
                 name="promptText"
                 height="300px"
-                width="100%"
+                width="80%"
                 isRequired
                 placeholder="Input a short code snippet here..."
                 size="lg"
