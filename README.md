@@ -1,4 +1,18 @@
 
+Dev-GPT
+------------------
+A simple demo app to analyze code snippets in seconds utilizing the power of ChatGPT/OpenAI
+
+![App Screenshot](https://i.imgur.com/S8A8XK0.gif)
+
+
+## Tech Stack
+
+**Client:** HTML, Javascript, React, Redux, ChakraUI
+
+**Server:** Node, Express
+
+
 ## Documentation
 
 The main motivation behind building this project was to try and take all the worry and seemingly negative chatter surrounding AI and how we will all be jobless because of it, and to learn more for myself about what it actually can and can't do, and how I can use it to help myself and others, and learn some stuff in the process. It also seemed perfect since I am always learning and a full-fledged version of this could be helpful to other learners like myself. I thought it would be interesting to see if I could make something to help others developers to understand and learn from code snippets.
