@@ -9,8 +9,9 @@ import {
   Grid,
 } from '@chakra-ui/react';
 
-import MainTitle from './components.js/MainTitle';
-import SnippetForm from './components.js/SnippetForm';
+import MainTitle from './components/MainTitle';
+import SnippetForm from './components/SnippetForm';
+import RecentSnippets from './components/RecentSnippets';
 
 
 // 1. import `ChakraProvider` component and `extendTheme`
@@ -30,6 +31,7 @@ function App() {
       <ChakraProvider theme={customTheme}>
         <MainTitle />
         <SnippetForm />
+        <RecentSnippets/>
       </ChakraProvider>
     
   );
