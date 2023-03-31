@@ -10,7 +10,7 @@ A simple demo app to analyze code snippets in seconds utilizing the power of Cha
 
 **Client:** HTML, Javascript, React, Redux, ChakraUI
 
-**Server:** Node, Express
+**Server:** Node, Express, Mongoose, MongoDB
 
 
 ## Documentation
@@ -28,6 +28,8 @@ Gained more experience building a React frontend, including working with compone
 Gained experience building a UI using Chakra UI, including working with pre-built components and theming.
 
 Gained experience building a Node.js backend using Express, including handling API requests and integrating with external APIs. This project was also useful in connecting some mental dots for me in moving away from requesting data and API endpoints directly from my frontend code, and instead abstracting it to the backend and making express routes to do all that for me, as  well as keep any api keys etc. safe.
+
+Gained experience working with MongoDB and mongoose more, it is utilized in both The Odin Project and Fullstackopen Curriculums, but this was a fun way to put it to use some more and allow for a more interactive app. It was also interesting to plan out and execute how I would prevent any profanity from being displayed on the site due to this new functionality, which I did using the npm package bad-words on the server side.
 
 This last one may seem very specific, but given it's current relevance and business impact I think it is important that I gained experience working with the OpenAI API, including handling authentication, making API requests, and processing the API responses.
 
