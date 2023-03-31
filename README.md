@@ -1,9 +1,9 @@
 
 Dev-GPT
 ------------------
-A simple demo app to analyze code snippets in seconds utilizing the power of ChatGPT/OpenAI
+A simple demo app to analyze code snippets in seconds utilizing the power of ChatGPT/OpenAI, snippets submitted and answers received by other users are viewable at the bottom portion of the UI
 
-![App Screenshot](https://i.imgur.com/S8A8XK0.gif)
+![App Screenshot](https://i.imgur.com/JfHgIID.gif)
 
 
 ## Tech Stack
@@ -41,4 +41,4 @@ Analyze Code Snippets up to 150 characters (or 300 tokens)
 
 Answers in seconds
 
-View recent code snippets and answers submitted by other users 
+View recent code snippets and answers submitted/received by other users 
